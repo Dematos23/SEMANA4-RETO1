@@ -1,0 +1,40 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr) ;
+    grid-template-rows: repeat(3,200px);
+    grid-template-areas: 
+        "verde-claro verde-claro azul azul azul"
+        "verde-claro verde-claro rojo rojo verde-oscuro"
+        "rosado rosado rojo rojo marron";
+    grid-gap: 10px;
+}
+
+.verde-claro{
+    grid-area: verde-claro;
+    background-color: rgb(72, 238, 183);
+}
+
+.azul{
+    grid-area: azul;
+    background-color: rgb(127, 225, 255);
+}
+
+.rojo{
+    grid-area: rojo;
+    background-color: rgb(255, 100, 52);
+}
+
+.verde-oscuro{
+    grid-area: verde-oscuro;
+    background-color: rgb(35, 77, 8);
+}
+
+.rosado{
+    grid-area: rosado;
+    background-color: rgb(251, 149, 255);
+}
+
+.marron{
+    grid-area: marron;
+    background-color: rgb(134, 81, 0);
+}
