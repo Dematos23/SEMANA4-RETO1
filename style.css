@@ -12,29 +12,35 @@
 .verde-claro{
     grid-area: verde-claro;
     background-color: rgb(72, 238, 183);
+    border-radius: 20px;
 }
 
 .azul{
     grid-area: azul;
     background-color: rgb(127, 225, 255);
+    border-radius: 20px;
 }
 
 .rojo{
     grid-area: rojo;
     background-color: rgb(255, 100, 52);
+    border-radius: 20px;
 }
 
 .verde-oscuro{
     grid-area: verde-oscuro;
     background-color: rgb(35, 77, 8);
+    border-radius: 20px;
 }
 
 .rosado{
     grid-area: rosado;
     background-color: rgb(251, 149, 255);
+    border-radius: 20px;
 }
 
 .marron{
     grid-area: marron;
     background-color: rgb(134, 81, 0);
+    border-radius: 20px;
 }
